@@ -12,5 +12,6 @@ gcc -o memalloc.so -fPIC -shared memalloc.c
 ```
 
 System: WSL on Windows 10
+
 Currently running into segmentation fault after adding printf() statements.
 Otherwise, it works fine.
